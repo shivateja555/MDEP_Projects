@@ -9,7 +9,7 @@ The entire application is **containerized using Docker**, making it easy to run 
 
 ## 📁 Project Structure
 
-
+'''
 nlp-spam-app/
 ├── src/
 │ ├── app.py # Flask application (API + Web UI)
@@ -25,7 +25,7 @@ nlp-spam-app/
 ├── Dockerfile # Multi-stage Docker build
 ├── requirements.txt # Python dependencies
 └── README.md
-
+'''
 
 ---
 
