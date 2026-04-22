@@ -12,18 +12,18 @@ The entire application is **containerized using Docker**, making it easy to run 
 '''
 nlp-spam-app/
 ├── src/
-│ ├── app.py # Flask application (API + Web UI)
-│ ├── model.py # Training and prediction logic
-│ ├── explain.py # Explainability (feature importance)
+│ ├── app.py          # Flask application (API + Web UI)
+│ ├── model.py        # Training and prediction logic
+│ ├── explain.py      # Explainability (feature importance)
 │ ├── templates/
-│ │ └── Index.html # Frontend UI
-│ └── init.py # Makes src a Python package
+│ │ └── Index.html    # Frontend UI
+│ └── init.py         # Makes src a Python package
 ├── data/
-│ └── spamEmails.csv # Dataset (spam=1, ham=0)
+│ └── spamEmails.csv  # Dataset (spam=1, ham=0)
 ├── models/
-│ └── spam_model.pkl # Saved trained model (auto-created)
-├── Dockerfile # Multi-stage Docker build
-├── requirements.txt # Python dependencies
+│ └── spam_model.pkl  # Saved trained model (auto-created)
+├── Dockerfile        # Multi-stage Docker build
+├── requirements.txt  # Python dependencies
 └── README.md
 '''
 
